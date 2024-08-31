@@ -3,7 +3,7 @@ name: App-Service-with-Cosmos_AZD-template
 version: 1.0.0
 summary: Azure APP Service with Cosmos Environment
 description: Deploys an Azure App Service with Cosmos, it is compatible with azd.
-runner: ARM
+runner: "mcr.microsoft.com/deployment-environments/runners/arm:3.1.0-preview"
 templatePath: azuredeploy.json
 
 parameters:
